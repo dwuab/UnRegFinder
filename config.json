@@ -1,0 +1,19 @@
+{
+	"software": {
+		"bcftools" : "bcftools",
+		"plink2" : "plink2",
+		"Rscript" : "Rscript",
+		"laser" : "/home/opt/software/LASER-2.04/laser",
+		"vcf2geno" : "/home/opt/software/LASER-2.04/vcf2geno/vcf2geno",
+		"plink" : "plink",
+		"bedtools" : "bedtools"
+	},
+	"path" : {
+		"work_dir": "/data1/test_unusual_region_code/EUR",
+		"input_dir": "/home/qxliu/unusual_regions_test/0_raw_data"
+	},
+	"input_vcf_fn" : "20201028_CCDG_14151_B01_GRM_WGS_2020-08-05_chr{chr}.recalibrated_variants.vcf.gz",
+	"pop_name" : "EUR",
+	"sample_list" : "resources/EUR.list",
+	"max_iteration" : 4
+}
